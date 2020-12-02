@@ -1,0 +1,21 @@
+{
+  "short_name": "Code Spaghetti",
+  "name": "Code Spaghetti Multiplayer Game",
+  "icons": [
+    {
+      "src": "/images/pastabowl.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/pastabowl.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+	"display": "fullscreen",
+	"orientation": "portrait",
+  "background_color": "black",
+  "theme_color": "white"
+}

@@ -1,0 +1,76 @@
+.header-false {
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  align-items: center;
+  background: white;
+  height: 10%;
+	width: 40px;
+	margin-left: 5px;
+  border-radius: 10px;
+  transition: cubic-bezier(0.71, -0.1, 0.41, 1.21) 0.6s;
+}
+
+.header-true {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  justify-items: end;
+  align-items: center;
+  background: white;
+  height: 10%;
+  width: 100%;
+  border-radius: 10px;
+  transition: cubic-bezier(0.71, -0.1, 0.41, 1.21) 0.6s;
+}
+
+.header-logo {
+  border-radius: 10px;
+  place-self: start;
+  background: white;
+  margin: 2px;
+  color: black;
+  height: 35px;
+  width: 35px;
+}
+
+.header-exit-true {
+  grid-column: 5/6;
+  margin-right: 10px;
+  opacity: 1;
+  transition: ease-in-out 0.7s;
+  background: white;
+  color: black;
+  place-self: center;
+  color: white;
+  background: red;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.header-exit-false {
+  visibility: hidden;
+  opacity: 0;
+  background: white;
+  color: black;
+  place-self: center;
+}
+
+.header-room-true {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-right: 10px;
+  grid-column: 2/5;
+  opacity: 1;
+  transition: ease-in-out 0.7s;
+  background: white;
+  color: black;
+  align-self: center;
+}
+
+.header-room-false {
+  visibility: hidden;
+  opacity: 0;
+  background: white;
+  color: black;
+  place-self: center;
+}

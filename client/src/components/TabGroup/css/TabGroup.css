@@ -1,0 +1,32 @@
+.active-tab {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: black;
+  color: white;
+  border: 2px solid white;
+  outline: 0;
+}
+
+.tab {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: white;
+  color: black;
+  border: 2px solid white;
+  outline: 0;
+}
+
+.buttongroup {
+  border-radius: 5px;
+	display: flex;
+	justify-content: center;
+}
+
+.tab-content {
+  margin-top: 5px;
+  text-align: center;
+  margin: 10px;
+}
+

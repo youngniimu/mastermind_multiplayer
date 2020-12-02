@@ -1,0 +1,202 @@
+/* .swipe-button {
+  margin-top: 6px;
+  float: left;
+  width: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  position: relative;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.swipe-button,
+.swipe-button * {
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+}
+
+.swipe-button-container {
+  float: left;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.swipe-button-slider {
+  float: left;
+  width: 100%;
+  position: absolute;
+  height: 50px;
+  top: 0;
+  left: 50px;
+  margin-left: -100%;
+  background: #333;
+  border-radius: 10px;
+  z-index: 100;
+}
+
+.swipe-button-slider-arrow {
+  float: left;
+  position: absolute;
+  transform: rotate(45deg);
+  border: 2px solid #fff;
+  background: green;
+  height: 8px;
+  width: 8px;
+  top: 50%;
+  right: 22px;
+  margin-top: -6px;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform-origin: center;
+  z-index: 10;
+}
+
+.swipe-button-slider-text {
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 15%;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  background: black;
+}
+
+.swipe-button-container-unlocked{
+	width: 50%!important;
+  margin-left: 25%;
+  transition: 0.5s;
+}
+
+.swipe-button-container-unlocked .swipe-button-slider{
+  left: 100%!important;
+  cursor: default;
+  pointer-events: none;
+}
+.swipe-button-container-unlocked .swipe-button-slider-arrow {
+  transition: 0.5s;
+  margin-right: -60px;
+}
+.swipe-button-container-unlocked .rsbcSliderCircle {
+  transition: 0.5s;
+  margin-right: -60px;
+} */
+
+.ReactSwipeButton {
+  margin: 5px;
+  float: left;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  position: relative;
+}
+.ReactSwipeButton,
+.ReactSwipeButton * {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+.rsbContainer {
+  border: 1px solid white;
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.rsbContainerUnlocked {
+  width: 50% !important;
+  margin-left: 25%;
+  transition: 0.5s;
+  cursor: default;
+}
+.rsbContainerUnlocked .rsbcSlider {
+  left: 100% !important;
+  cursor: default;
+  pointer-events: none;
+}
+.rsbContainerUnlocked .rsbcSliderArrow {
+  transition: 0.5s;
+  margin-right: -60px;
+}
+.rsbContainerUnlocked .rsbcSliderCircle {
+  transition: 0.5s;
+  margin-right: -60px;
+}
+.rsbcSlider {
+  float: left;
+  width: 100%;
+  position: absolute;
+  height: 50px;
+  top: 0;
+  left: 50px;
+  margin-left: -100%;
+  background: green;
+  border-radius: 10px;
+  z-index: 100;
+}
+.rsbcSliderText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #fff;
+  background: green;
+  border-radius: 10px;
+}
+.rsbcSliderArrow {
+  float: left;
+  position: absolute;
+  transform: rotate(45deg);
+  border: 2px solid #fff;
+  height: 8px;
+  width: 8px;
+  top: 50%;
+  right: 22px;
+  margin-top: -6px;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform-origin: center;
+  background: green;
+  z-index: 10;
+}
+.rsbcSliderCircle {
+  position: absolute;
+  right: 0;
+  background: green;
+  top: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+.rsbcText {
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 13px;
+}

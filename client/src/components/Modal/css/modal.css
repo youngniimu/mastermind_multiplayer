@@ -1,0 +1,61 @@
+.modal-dimmer {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.753);
+}
+
+.modal-container {
+  text-align: center;
+  background: black;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 180px;
+  width: 250px;
+  transform: translate(-50%, -50%);
+}
+
+.modal-content {
+  margin-top: 30px;
+}
+
+.modal-actions {
+  position: flex;
+  margin-top: 60px;
+}
+
+.modal-button-enter {
+  bottom: 10%;
+	background: green;
+	color: white;
+  padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+
+.modal-button-leave {
+  bottom: 10%;
+	background: red;
+	color: white;
+  padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.modal-button-cancel {
+  bottom: 10%;
+  background: white;
+  color: black;
+  padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}

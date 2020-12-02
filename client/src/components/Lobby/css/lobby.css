@@ -1,0 +1,64 @@
+.lobby-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 90%;
+  height: 80%;
+  margin-top: 20px;
+  display: grid;
+  grid-template-rows: 70% 30%;
+}
+
+.tab-content-info {
+  border: 2px solid white;
+  width: 95%;
+  border-radius: 10px;
+	z-index: 10;
+	text-align: center;
+}
+
+.info-container {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 85% 15%;
+  justify-items: center;
+}
+
+.lobby-players {
+  margin: 10px 0px 10px;
+}
+
+.lobby-players-content {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: repeat(3, 33%);
+  grid-gap: 5px;
+}
+
+#player-tag {
+	max-width: 90%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.submit-button {
+  position: relative;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.player-tag-inGame {
+  background: gray;
+  opacity: 0.5;
+}
+
+.player-tag-ready {
+  opacity: 1;
+}
+
+.player-tag-notready {
+  opacity: 0.5;
+}
